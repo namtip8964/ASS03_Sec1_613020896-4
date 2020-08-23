@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imageBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:text="You are a wonderful person I hope that your spacial day is the beginning of another amazing year."
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="#E692C1"
+            android:text="HAPPY BIRTHDAY To CHANYEOL'S GIRL "
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_above="@id/imageView"
+            android:layout_centerHorizontal="true" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="220dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/fah" />
+    </RelativeLayout>
+</RelativeLayout>
